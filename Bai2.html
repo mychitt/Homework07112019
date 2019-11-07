@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bài tập 2 | Fteam</title>
+	<link rel="stylesheet" type="text/css" href="bai2.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
+
+	<!-- jquery -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="alert alert-primary alert-dismissible fade show" role="alert">
+			<strong>Thông tin sản phẩm</strong>
+		</div>
+		<form >
+				<div class="row">
+					<div class="col-md-4 col-sm-12 col-12">
+						<div class="form-group">
+							<label>Mã sản phẩm: </label>
+							 <input type="text" class="form-control" id="exampleInputEmail1">
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12 col-12">
+						<div class="form-group">
+							<label>Tên sản phẩm: </label>
+							 <input type="text" class="form-control" id="exampleInputEmail1">
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12 col-12">
+						<div class="form-group">
+							<label>Số lượng: </label>
+							 <input type="text" class="form-control" id="exampleInputEmail1">
+						</div>
+					</div>
+				</div>
+			</form>	
+
+
+			<form>
+				  <div class="form-row">
+				    <div class="col col-md-6 col-sm-12 col-12">	
+				    	<label>Đơn giá</label>
+				    	<input type="text" class="form-control" >
+				    </div>
+
+				    <div class=" col col-md-6 col-sm-12 col-12">
+				    	<label>Đơn vị tính</label>
+				      <div class="input-group">
+  						<input type="text" class="form-control" aria-label="Text input with segmented dropdown button" placeholder="Đơn vị tính">
+  						<div class="input-group-append">
+    					<!-- <button type="button" class="btn btn-outline-secondary">Action</button> -->
+    					<button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      					<span class="sr-only">Toggle Dropdown</span>
+    				</button>
+    				<div class="dropdown-menu">
+      				<a class="dropdown-item" href="#">Action</a>
+     			 <a class="dropdown-item" href="#">Another action</a>
+      			<a class="dropdown-item" href="#">Something else here</a>
+      			<div role="separator" class="dropdown-divider"></div>
+      			<a class="dropdown-item" href="#">Separated link</a>
+   			 </div>
+ 		 </div>
+		</div>
+			</div>
+			</div>
+
+		<div class="row bg-primary pt-2 pb-2 ml-0 mr-0 mt-3 rounded text-white">
+			<div class="custom-control custom-checkbox">
+				Thuế:
+ 			 <input type="checkbox" class="" id="customCheck1">
+		  <label class="custom-control-label" for="customCheck1">VAT(10%)</label>
+			</div>
+
+			<div class="custom-control custom-checkbox">
+ 			 <input type="checkbox" class="" id="customCheck1">
+		  <label class="custom-control-label" for="customCheck1">VAT(5%)</label>
+			</div>
+
+			<div class="custom-control custom-checkbox">
+ 			 <input type="checkbox" class="" id="customCheck1">
+		  <label class="custom-control-label" for="customCheck1">VAT(20%)</label>
+			</div>
+		</div>	
+		<input type="submit" value="Tính tiền" name="" class="btn btn-success mt-4">
+			</form>
+	</div>
+	
+</body>
+</html>

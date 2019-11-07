@@ -1,0 +1,23 @@
+p.bg-success {
+    font-size: 15px;
+    padding: 11px;
+    color: #fff;
+   
+}
+a p.bg-primary.text-center {
+    font-size: 15px;
+    padding: 11px;
+    color: #fff;
+    border-radius: 5px;
+}
+.container-fluid {
+    width: 80%!important;
+}
+p.bg-transparent.text-center{
+    font-size: 13px;
+    padding: 11px;
+    color: #ccc;
+    border: 1px solid #ccc;
+   	border-radius: 5px;
+   	text-decoration: none;
+}
